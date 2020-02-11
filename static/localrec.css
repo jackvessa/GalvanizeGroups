@@ -88,9 +88,9 @@ html{
 .homepage_cluster {
   width: 100%;
   margin: 0px;
-  height: 300px;
+  height: 400px;
   border: 0px solid #00ac79;
-  background-image: url("https://github.com/jackvessa/GalvanizeGroups/blob/master/IMG/homepageBanner.jpeg?raw=true");
+  background-image: url("https://github.com/jackvessa/GalvanizeGroups/blob/master/IMG/clusterBanner.jpg?raw=true");
   vertical-align: middle;
 }
 
@@ -137,10 +137,20 @@ html{
 
 .cluster_group{
   height: 200px;
-  width: 30%;
+  width: 30.5%;
   float: left;
   border: 3px solid #F79020;
 
+}
+
+.cluster_selection{
+  height: 200px;
+  width: 40%;
+  float: middle;
+  border: 3px solid #F79020;
+  display:table;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .head {
@@ -500,11 +510,12 @@ head {
 }
 
 body {
-    margin: 0px;
+    margin: auto;
     padding-bottom: 70px;
     position: relative;
     /* height:100%; */
-    min-height:100vh;
+    background-color: #003B4C;
+    align-items: center;
 }
 
 
@@ -543,7 +554,7 @@ h1 {
     color:  #F79020;
     background-color: none;
     border: 0px solid #00ac79;
-    margin: 50px;
+    margin: 20px;
     padding: 5px;
     text-align: center;
     font-weight: bold;
@@ -832,7 +843,7 @@ input {
   background-color: #f1f1f1;
   padding: 10px;
   height: 50px;
-  width: 40%;
+  width: 80%;
   font-size: 35px;
   text-align: center;
 
@@ -849,7 +860,7 @@ input[type=radio] {
 
 input[type=text] {
   background-color: #f1f1f1;
-  width: 60%;
+  width: 80%;
   font-size: 35px;
   text-align: center;
   align-items: center;
@@ -858,14 +869,14 @@ input[type=submit] {
   background-color: #003B4C;
   color: #fff;
   font-size: 25px;
-  width:40%;
+  width:80%;
 }
 
 input[type=file] {
   /* background-color: #00ac79; */
   color: black;
   font-size: 25px;
-  width:40%;
+  width:80%;
   text-align: center;
   margin:auto;
 
@@ -998,7 +1009,6 @@ input[type=file] {
     top:50%;
     left:50%;
     display: table;
-
   }
 
   .homebutton{

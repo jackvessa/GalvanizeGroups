@@ -563,17 +563,19 @@ def cluster():
                     <h1>Generate Clusters</h1>
                 </div>
 
-                <h3>Choose Specifications:</h3>
+                <div class = 'cluster_selection'>
+                    <h3>Choose Specifications:</h3>
 
-                <form method="post" action = "." enctype="multipart/form-data">
-                    <p>Upload student roster CSV Here:</p>
-                    <input type="file" name="data_file" />
+                    <form method="post" action = "." enctype="multipart/form-data">
+                        <p>Upload student roster CSV Here:</p>
+                        <input type="file" name="data_file" />
 
-                    <p>Choose Number of Clusters to Form:</p>
-                    <p><input name="num_clusters" type = "number" min = "2" max = "9" autocomplete='off'></p>
+                        <p>Choose Number of Clusters to Form:</p>
+                        <p><input name="num_clusters" type = "number" min = "2" max = "9" autocomplete='off'></p>
 
-                    <p><input type="submit" value="Submit Specifications" /></p>
-                </form>
+                        <p><input type="submit" value="Submit Specifications" /></p>
+                    </form>
+                </div>
 
             </body>
         </html>
