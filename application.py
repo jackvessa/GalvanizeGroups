@@ -464,8 +464,14 @@ def cluster():
 
                         </div>
 
+
+
+
                         <title>Cluster Results</title>
-                        <h1>Cluster Results</h1>
+
+                        <div class = 'homepage_cluster'>
+                            <h1>Cluster Results</h1>
+                        </div>
 
 
                     </head>
@@ -553,7 +559,9 @@ def cluster():
             </head>
 
             <body>
-                <h1>Generate Clusters</h1>
+                <div class = 'homepage_cluster'>
+                    <h1>Generate Clusters</h1>
+                </div>
 
                 <h3>Choose Specifications:</h3>
 
