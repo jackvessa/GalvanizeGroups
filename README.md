@@ -1,7 +1,7 @@
 # Genius Groups
 Find your next great cause at [http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/](http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/)
 
-|![CharityRecommender Homepage](IMG/CR_Homepage.png)|
+|![Genius Groups Homepage](IMG/)|
 |---|
 
 
