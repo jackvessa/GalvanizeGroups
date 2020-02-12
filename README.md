@@ -1,5 +1,5 @@
 # Galvanize Groups
-Group up at at [http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/](http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/)
+Group up at [http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/](http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/)
 
 |![Genius Groups Homepage](IMG/GG_Homepage.png)|
 |---|
@@ -11,26 +11,21 @@ Group up at at [http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com
 - This project aims to tackle the very important (and very time consuming) task of effectively grouping students. 
 - Providing educators with a simple tool to create groups of students using insights driven by data can help them spend more time planning engaging lessons and creating personalized education experiences.
 
-## Grouping Considerations and inputs
+## Generating Clusters From Assessments
+
+### Clustering Inputs
 
 CSV File
 ```
-Teachers can upload a CSV file with student names and assignment scores
+Educators  upload a CSV file with student names and assignment scores
 ```
-Section ID
+Number of Clusters
 ```
-Because a CSV file may have multiple sections, teachers can specify which section to group
-```
-Number of Groups
-```
-Teachers can choose any number of groups to create!
-```
-Type of Grouping
-```
-Teachers can choose Homogenous (similar scores) or Heterogeneous (different scores) grouping
+Choose between 2-9 clusters to break students into
 ```
 
 ## How it Works
+
 
 |![Cluster Specifics](IMG/Cluster_Specifics.png)|
 |---|
@@ -38,15 +33,22 @@ Teachers can choose Homogenous (similar scores) or Heterogeneous (different scor
 |![Cluster Results](IMG/Cluster_Results.png)|
 |---|
 
+KMeans Clustering
+```
+The KMeans Clustering algorithm seeks to create clusters of similar students using student assessment data. 
+
+It does this through randomly assigning a fixed number of cluster centroids and iteratively associating the remainder of the data points to the nearest centroid.
+
 
 
 ## Tools Used
 - Python
 - Flask
+- Scikit-Learn
 - Elastic Beanstalk
 
 
 
 ## Acknowledgments
 
-* Thank you to all the teachers who have positively impacted my life
+* Thank you to all the teachers for your unwavering support and courage to students everywhere
