@@ -1,18 +1,15 @@
 # Genius Groups
+Find your next great cause at [http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/](http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/)
+
+|![CharityRecommender Homepage](IMG/CR_Homepage.png)|
+|---|
+
 
 ## Project Motivation
 
-Teachers have countless tasks to complete and very limited time to do so. This project aims to tackle the very important (and very time consuming) task of effectively grouping students. Providing teachers with a simple tool to create groups of students using insights driven by data can help them spend more time planning engaging lessons and creating personalized education experiences.
-
-## Getting Started
-
-This project was inspired by my conversations with current school teachers about the challenges they face on a weekly basis.
-
-Creating student seating charts, rotation station groups, and project teams are foundations of an effective educational experience.
-
-Additionally, having data-driven insights to inform this process is invaluable.
-
-The goal of this project is to create a web tool that enables teachers to use data to quickly group students in real-time.
+- Educators have countless tasks to complete and very limited time to do so. 
+- This project aims to tackle the very important (and very time consuming) task of effectively grouping students. 
+- Providing educators with a simple tool to create groups of students using insights driven by data can help them spend more time planning engaging lessons and creating personalized education experiences.
 
 ## Grouping Considerations and inputs
 
@@ -33,10 +30,16 @@ Type of Grouping
 Teachers can choose Homogenous (similar scores) or Heterogeneous (different scores) grouping
 ```
 
+## How it Works
+
+
+
+
 ## Tools Used
 - Python
 - Flask
-- Amazon Web Services
+- Elastic Beanstalk
+
 
 
 ## Acknowledgments
