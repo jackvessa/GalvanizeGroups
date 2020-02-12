@@ -33,8 +33,7 @@ Choose between 2-9 clusters to break students into
 |![Cluster Results](IMG/Cluster_Results.png)|
 |---|
 
-KMeans Clustering
-```
+### KMeans Clustering
 The KMeans Clustering algorithm seeks to create clusters of similar students using student assessment data. 
 
 It does this through randomly assigning a fixed number of cluster centroids and iteratively associating the remainder of the data points to the nearest centroid.
