@@ -1,5 +1,5 @@
-# Genius Groups
-Find your next great cause at [http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/](http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/)
+# Galvanize Groups
+Group up at at [http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/](http://galvanizegroups.bxzcwumakq.us-east-2.elasticbeanstalk.com/)
 
 |![Genius Groups Homepage](IMG/GG_Homepage.png)|
 |---|
@@ -32,6 +32,11 @@ Teachers can choose Homogenous (similar scores) or Heterogeneous (different scor
 
 ## How it Works
 
+|![Cluster Specifics](IMG/Cluster_Specifics.png)|
+|---|
+
+|![Cluster Results](IMG/Cluster_Results.png)|
+|---|
 
 
 
